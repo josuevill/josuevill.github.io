@@ -1,46 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style.css">
+    <title>Cv josuevill</title>
 </head>
-
 <body>
-    <div class="container">
-        <h1 class="first-four">4</h1>
-        <div class="cog-wheel1">
-            <div class="cog1">
-                <div class="top"></div>
-                <div class="down"></div>
-                <div class="left-top"></div>
-                <div class="left-down"></div>
-                <div class="right-top"></div>
-                <div class="right-down"></div>
-                <div class="left"></div>
-                <div class="right"></div>
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Experiencia</a>
+                    <a href="#resumen">Detalles</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+            <div class="info">
+                <h1>Josue Villafana Blotte</h1>
+                <h2>Asistene administrativo - logístico</h2>
+            </div>
+            <div class="foto">
+                <img src="img/foto.jpg" alt="">
             </div>
         </div>
+    </section>
 
-        <div class="cog-wheel2">
-            <div class="cog2">
-                <div class="top"></div>
-                <div class="down"></div>
-                <div class="left-top"></div>
-                <div class="left-down"></div>
-                <div class="right-top"></div>
-                <div class="right-down"></div>
-                <div class="left"></div>
-                <div class="right"></div>
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">Resumen</p>
+            <p>Asistente administrativo con 5 años de experiencia en el rublo logístico, manejo de clientes corporativos, procesamiento de bases de datos, creación de reportes, indicadores de entrega, coordinación de distribución entre otros.
+               Adicionalmente cuento con conocimientos en computación debido a mis estudios en Ingeniería de Sistemas, así como cursos de certificación en Excel, base de datos MSSQL, python así como frameworks javascript.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>Cuento con conocimientos en computación debido a mis estudios en Ingeniería de Sistemas, así como un curso de certificación en Excel, además de conocimiento básico en software ERP Odoo y creación básica de informes en Power BI.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <span>Dirección:</span><p>Jirón Montero Rosas 1189</p>
+                    <span>Distrito:</span><p>Lima Cercado</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>En la actualidad me dedico a estudiar programación. Pueden ver mis projectos en <a href="https://github.com/josuevill?tab=repositories">GitHub</a></p>
+                </div>
             </div>
         </div>
-        <h1 class="second-four">4</h1>
-        <p class="wrong-para">Oh No! Página no disponible!</p>
-    </div>
-    <script src="script.js"></script>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mi Experiencia</h2>
+            <h3>Mi Experiencia profesional</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>ENLACE CORREOS S.A.</span>&nbsp;<p>Octubre 2014 – Setiembre 2019</p>
+                    <p>Empresa especializada en mensajería a nivel nacional.</p>
+                    <div class="cont-barra">
+                        <div class="barra" id="enlace">
+                        </div>
+                    </div>
+                    <h4>Asistente Administrativo, Atención al cliente</h4>
+                    <br/>
+                    <p>Responsable de la cuenta para el cliente Enotria, atención a reclamos y envíos especiales. Asimismo, coordinación de recojo y entregas, procesamiento de base de datos, verificación de direcciones. Reportes de entrega y devoluciones al cliente y Gerencia de operaciones.</p>
+                    <br/>
+                    <ul>
+                        <li>Incrementé los servicios en aproximadamente un 30% de correspondencia para reparto.</li>
+                        <li>Mejoré el cruce de información de reportes</li>
+                        <li>Reestructuré bases de datos para su correcta carga.</li>
+                    </ul>
+                
+                </div>
+                <div class="col">
+                    <span>SMP COURIER | SERVICIOS LOGÍSTICOS</span>&nbsp;<p>Abril 2013 – Mayo 2014</p>
+                    <p>Empresa en brindar soluciones logísticas con almacenes propios a nivel nacional.</p>
+                    <div class="cont-barra">
+                        <div class="barra" id="smp">
+                        </div>
+                    </div>
+                    <h4>Asistente Logístico, Almacén</h4>
+                    <br/>
+                    <p>Responsable del correcto embalaje y almacenaje de devoluciones de correspondencia y paquetería, así como el inventario de los mismos. Asimismo, previa solicitud con las diferentes áreas de la empresa para la búsqueda de documentación para la devolución.</p>
+                    <br/>
+                    <ul>
+                        <li>Reduje los tiempos de almacenaje en un 50% quitando el pistoleo de devoluciones y optando por el almacenaje por cliente.</li>
+                        <li>Realicé reportes diarios de entregas del día anterior a los ejecutivos.</li>
+                        <li>Realicé la distribución de materiales y útiles de oficina.</li>
+                    </ul>
+                
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>CUERPO GENERAL DE BOMBEROS DEL PERÚ</span>&nbsp;<p>Octubre 2012 – Marzo 2013</p>
+                    <p>Organización cívica nacional conformada por bomberos voluntarios que prestan servicios de manera voluntaria y ad honorem.</p>
+                    <div class="cont-barra">
+                        <div class="barra" id="bomberos">
+                        </div>
+                    </div>
+                    <h4>Asistente de Soporte Técnico, Practicante</h4>
+                    <br/>
+                    <p>Desempeñe las funciones de instalación de software, programación web, mantenimiento, preventivo, configuración de equipos (impresoras, scanner, entre otros). </p>
+                    <br/>
+                    <ul>
+                        <li>Instalación y configuración de aplicaciones.</li>
+                        <li>Mantenimiento de hardware.</li>
+                        <li>Atención de incidencias o consultas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Detalles</h2>
+            <h3>Mi preparación y algo más</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Formación Académica</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2011 - 2013</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Estudios truncos en ingeniería hasta el 7mo ciclo.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Universidad Inca Garcilaso</h4>
+                                <p>Ingeniería de Sistemas</p>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <br/> <br/>
+                    <span class="titulo">Información adicional</span>
+                    <table>
+                        <tr>
+                            <td rowspan="2" class="descripcion">
+                               <ul>
+                                <li>Conocimiento en Office.</li>
+                                <li>Nivel de ingles básico.</li>
+                                <li>Licencia de conducir A1 vigente con más de 5 años.</li>
+                               </ul>
+                            </td>
+                        </tr>
+ 
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Formación complementaria</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2020</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Curso finalizado de certificación en Excel desde el nivel básico hasta el nivel avanzado de forma virtual en el 2020.<br/>
+                                <a href="https://www.udemy.com/certificate/UC-b656db96-fa4b-43fa-a48b-bdbd2500a8d7/">Ver Certificado</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Udemy Cursos</h4>
+                                <p>Microsoft Excel</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2019</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Curso finalizado de certificación en Python y Django en el año 2019.<br/>
+                                <a href="https://www.udemy.com/certificate/UC-WF2VIIU0/">Ver Certificado</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Udemy Cursos</h4>
+                                <p>Curso completo Python 3</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2020</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Curso finalizado en Microsoft SQL Server en el año 2020<br/>
+                                <a href="https://www.udemy.com/certificate/UC-ec2e5f86-4488-4a67-895b-63817ff011ec/">Ver Certificado</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Udemy Cursos</h4>
+                                <p>Microsoft SQL Server</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2020</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Curso finalizado de Frameworks Javascript en el año 2020.<br/>
+                                <a href="https://www.udemy.com/certificate/UC-9d3a03a2-4163-4dda-834b-5de552794350/">Ver Certificado</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Udemy Cursos</h4>
+                                <p>Master en frameworks javascript</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Ponte en contacto ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">51 - 917023901</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">josvill004@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-file-pdf"></i> Descargar
+                    </h2>
+                    <span class="info-contacto"><a href="https://drive.google.com/file/d/1uBfidKhtvH-BinturpJK4mz2y3pBaGGZ/view?usp=sharing">CV PDF</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
-
 </html>
